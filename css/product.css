@@ -1,0 +1,63 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product{
+    width: 350px;
+    /* height: 100px; */
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 9px 9px 0px -3px #f9f5f5;
+    overflow: hidden;
+}
+
+.number{
+    width: 50px;
+    height: 50px;
+    color: #f9f5f5;
+    font-weight: bold;
+    background: rgb(14, 203, 236);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    margin: auto;
+    font-size: 30px;
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+   
+}
+.product h2{
+    padding: 15px;
+    margin: 0 10px;
+    transition: .6s;
+    color: rgb(14, 203, 236);
+}
+
+.product p{
+    line-height: 1.5;
+    font-size: 15px;
+    transition: .6s;
+  color:  rgb(14, 203, 236);
+}
+ .product:hover .number{
+    box-shadow: 0px 0px 0px 325px rgb(14, 203, 236) ;
+ }
+ .product:hover h2,
+ .product:hover p{
+     color: white;
+ }
